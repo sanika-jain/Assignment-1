@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body class="body">
+    <center>
+    <h1>Registration Form</h1>
+    <form action="form.php" method="post">
+        <div class="container">
+        <label for="name">Name</label>&nbsp;
+        <input type="text" name="name" required><br>
+        <label for="email">Email</label>&nbsp;
+        <input type="email" name="email" required><br>
+        <label for="gender">Gender</label> &nbsp;
+        <input type="radio" name="gender" value="Male" id="check">Male
+        <input type="radio" name="gender" value="Female" id="check">Female <br>
+        <label for="city">City</label> &nbsp;        
+        <select name="city" id="city" >
+            <option value="Mumbai">Mumbai</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Kolkata">Kolkata</option>
+        </select><br>
+        <button type="submit" id="btn">Add new Registration</button>
+    </div>
+    </center>
+
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+.container{
+    font-size:x-large;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 3;
+
+}
+#city{
+    width: 200px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#check{
+    font-size: large;
+}
+
+#btn{
+    width: 200px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+}
+body{
+    background-image: url(./img2.svg);
+}
